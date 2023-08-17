@@ -1,7 +1,5 @@
-let menu = (document.querySelector = "#menu-icon");
-let navlis = (document.querySelector = "
-
-navlis");
+let menu = document.querySelector("#menu-icon");
+let navlis = document.querySelector("navlis");
 
 menu.onclick = () => {
   menu.classlist.toggle("bx-menu");
